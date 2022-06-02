@@ -1,0 +1,39 @@
+:root {
+  --page-bgcolor: #f4f4fb;
+  --page-color: #191919;
+  --link-color: #0060df;
+  --link-hover-color: #2d87ff;
+  --link-active-color: #004aad;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-bgcolor: #242424;
+    --page-color: #f4f4fb;
+    --link-active-color: #60a4ff;
+  }
+}
+
+body {
+  background-color: var(--page-bgcolor);
+  color: var(--page-color);
+  font-family: sans-serif;
+}
+
+a,
+a:visited {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+a:active {
+  color: var(--link-active-color);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 80ch;
+}
