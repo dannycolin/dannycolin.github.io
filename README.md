@@ -2,8 +2,6 @@
 
 My personal website
 
-<a rel="me" href="https://fosstodon.org/@dannycolin">Mastodon</a>
-
 ## License
 
 The source code for this site is licensed under AGPLv3. Unless otherwise
